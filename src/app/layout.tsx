@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Vorn Odom open graph",
     description: "Software Engineer open graph",
-    url: "https://metadata-two.vercel.app",
+    url: "https://metadata-git-main-vornodoms-projects.vercel.app",
     siteName: "vorn.dev",
     images: [
       {
-        url: "/og-image.jng",
+        url: "https://metadata-git-main-vornodoms-projects.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Vorn Odom",
