@@ -13,8 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vorn Odom",
-  description: "Software Engineer",
+  title: "Vorn Odom main",
+  description: "Software Engineer main",
+  openGraph: {
+    title: "Vorn Odom open graph",
+    description: "Software Engineer open graph",
+    url: "https://metadata-two.vercel.app",
+    siteName: "vorn.dev",
+    images: [
+      {
+        url: "/og-image.jng",
+        width: 1200,
+        height: 630,
+        alt: "Vorn Odom",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  }
 };
 
 export default function RootLayout({
