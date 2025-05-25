@@ -15,6 +15,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Vorn Odom main",
   description: "Software Engineer main",
+  keywords: ["Vorn Odom", "Software Engineer", "Web Developer"],
+  authors: [{ name: "Vorn Odom", url: "https://metadata-git-main-vornodoms-projects.vercel.app" }],
   openGraph: {
     title: "Vorn Odom open graph",
     description: "Software Engineer open graph",
@@ -30,7 +32,14 @@ export const metadata: Metadata = {
     ],
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vorn Odom Twitter",
+    description: "Software Engineer Twitter",
+    images: ["https://metadata-git-main-vornodoms-projects.vercel.app/og-image.jpg"],
   }
+  
 };
 
 export default function RootLayout({
