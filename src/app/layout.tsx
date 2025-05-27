@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description: "I'm Software Engineer, Web Developer, and Open Source Enthusiast.",
   keywords: ["Vorn Odom", "Software Engineer", "Web Developer"],  
   twitter: {
-    card: "summary"
+    card: "summary_large_image"
   }
 };
 
