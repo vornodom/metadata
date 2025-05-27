@@ -13,33 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vorn Odom main",
-  description: "Software Engineer main",
-  keywords: ["Vorn Odom", "Software Engineer", "Web Developer"],
-  authors: [{ name: "Vorn Odom", url: "https://metadata-git-main-vornodoms-projects.vercel.app" }],
-  openGraph: {
-    title: "Vorn Odom open graph",
-    description: "Software Engineer open graph",
-    url: "https://metadata-git-main-vornodoms-projects.vercel.app",
-    siteName: "vorn.dev",
-    images: [
-      {
-        url: "https://metadata-git-main-vornodoms-projects.vercel.app/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Vorn Odom",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
+  title: {
+    default: "Vorn Odom - Software Engineer",
+    template: "%s - Vorn Odom",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Vorn Odom Twitter",
-    description: "Software Engineer Twitter",
-    images: ["https://metadata-git-main-vornodoms-projects.vercel.app/og-image.jpg"],
-  }
-  
+  description: "I'm Software Engineer, Web Developer, and Open Source Enthusiast.",
+  keywords: ["Vorn Odom", "Software Engineer", "Web Developer"],  
 };
 
 export default function RootLayout({
