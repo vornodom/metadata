@@ -18,7 +18,14 @@ export async function generateMetadata(
         title: post.title,
         description: post.body,
         openGraph: {
-            url: `https://dummyjson.com/image/400x200/282828?fontFamily=pacifico&text=${post.title}`,
+            images: [
+                {
+                    url: `https://dummyjson.com/image/400x200/282828?fontFamily=pacifico&text=${post.title}`,
+                    width: 400,
+                    height: 200,
+                    alt: post.title,
+                }
+            ]
         }
     }
 }
